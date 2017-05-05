@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="background_style">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:minWidth">-1dp</item>
+        <item name="android:maxWidth">-1dp</item>
+        <item name="android:background">@drawable/black_background</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="elevation">6dp</item>
+    </style>
+
+    <style name="defalut_style">
+        <item name="android:background">@drawable/black_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout">@layout/material_toast</item>
+        <item name="animationStyle">@style/toastAnimation</item>
+    </style>
+
+
+    <style name="toastAnimation">
+        <item name="android:windowEnterAnimation">@anim/top_in</item>
+        <item name="android:windowExitAnimation">@anim/top_out</item>
+    </style>
+</resources>

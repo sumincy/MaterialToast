@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialToast">
+        <attr name="android:gravity" />
+        <attr name="android:layout" />
+        <attr name="android:background" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="animationStyle" format="reference" />
+    </declare-styleable>
+</resources>
