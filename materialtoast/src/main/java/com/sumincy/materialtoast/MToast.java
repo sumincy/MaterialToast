@@ -19,6 +19,7 @@ package com.sumincy.materialtoast;
 import android.content.Context;
 import android.support.annotation.StyleRes;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -63,7 +64,7 @@ public class MToast {
         TextView tv = (TextView) view.findViewById(android.R.id.message);
 
         if (tv != null) {
-            tv.setTextSize(attrs.textSize);
+            tv.setTextSize(TypedValue.COMPLEX_UNIT_PX,attrs.textSize);
             tv.setTextColor(attrs.textColor);
             tv.setText(text);
         } else {
